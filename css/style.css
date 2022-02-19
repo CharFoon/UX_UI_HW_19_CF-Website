@@ -51,13 +51,13 @@ button {
   padding: 15px;
   background-color: white
   color: #2E2F40;
+  border-style:none;
 }
 
 .ViewCSbutton {
   background-color:#2E2F40;
   color: #FFFFFF;
 }
-
 
 .Hi {
   font-family: Roboto;
@@ -118,10 +118,23 @@ color: #6768A6;
   float: right;
 }
 
-section .RaiseChild {
-  color: #FFFFFF;
-  background-color: #2E2F40;
+.RaiseChild {
+  color:#FFFFFF;
+  background-color:#2E2F40;
   padding: 110px;
+  margin: auto;
+}
+
+.readMoreButton {
+  background-color:#6768A6;
+  color:#FFFFFF;
+  font-size: 18px;
+}
+
+.readLessButton {
+  background-color:#6768A6;
+  color:#FFFFFF;
+  font-size: 18px;
 }
 
 section .RecentProjects {

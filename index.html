@@ -3,6 +3,7 @@
   <head>
     <title>CF Website Redo</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -35,17 +36,32 @@
       
     </section>
 
-    <section>
-        <div class="RaiseChild">
-        <h5>I want to help raise a child. <br><br>
-          “Excuse me?” you say. Stay with me here... <br><br>
-          Remember that proverb, “It takes a village to raise a child?” Now if that village was a forward-thinking design team, made up of product managers, user-centred designers, developers and stakeholders… and that child was a user-centred product, created to solve problems and enhance the end-user experience, then, yes! I’d like to be part of that proverbial village raising that child.”<br><br>
-          You say, “It takes commitment.” 
-          I say, “I’m in – hook, line and sinker!”<br><br>
-          Optimistic. Empathetic. Passionate. Collaborative. Flexible. 5 words used to describe me. Not just in a professional capacity, but in a personal one too. Why am I telling you this? Because I believe that many of the values we hold as a person, carry over into our work too.<br><br>
-          Design is first and foremost my interest and passion. Design in aesthetics and thinking. That’s why no matter which avenue I explore in life, it always brings me back to this. User Experience Design has allowed me to embrace my creativity in a collaborative and meaningful way.
-        </h5>
-      </div>
+    <section class="RaiseChild">
+        <div>
+          <h5>I want to help raise a child. <br><br>
+            “Excuse me?” you say. Stay with me here... <br><br>
+            Remember that proverb, “It takes a village to raise a child?” Now if that village was a forward-thinking design team, made up of product managers, user-centred designers, developers and stakeholders… and that child was a user-centred product, created to solve problems and enhance the end-user experience, then, yes! I’d like to be part of that proverbial village raising that child.”<br>
+          </h5>
+
+            <div>
+              <button class="readMoreButton" style="font-size:20px">Read more <i class="fa fa-chevron-down"></i></button>
+            </div>
+
+        </div>
+
+        <div>
+          <h5 class="RCHide">You say, “It takes commitment.” 
+            I say, “I’m in – hook, line and sinker!”<br><br>
+            Optimistic. Empathetic. Passionate. Collaborative. Flexible. 5 words used to describe me. Not just in a professional capacity, but in a personal one too. Why am I telling you this? Because I believe that many of the values we hold as a person, carry over into our work too.<br><br>
+            Design is first and foremost my interest and passion. Design in aesthetics and thinking. That’s why no matter which avenue I explore in life, it always brings me back to this. User Experience Design has allowed me to embrace my creativity in a collaborative and meaningful way.
+          </h5>
+
+          <div>
+            <button class="readLessButton" style="font-size:20px">Read Less <i class="fa fa-chevron-up"></i></button><br>
+          </div>
+
+
+        </div>
 
     </section>
 
@@ -81,7 +97,10 @@
 
       </ul>
     </footer>
-    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+
   </body>
 
 </html>
