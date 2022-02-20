@@ -56,7 +56,8 @@ button {
 
 .ViewCSbutton {
   background-color:#2E2F40;
-  color: #FFFFFF;
+  color:#FFFFFF;
+  font-size: 18px;
 }
 
 .Hi {
@@ -114,8 +115,8 @@ color: #6768A6;
 }
 
 .wavingHand {
-  width: 50%;
-  float: right;
+float: right;
+max-width: 50%;
 }
 
 .RaiseChild {
