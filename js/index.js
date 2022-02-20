@@ -17,5 +17,3 @@ $(".readLessButton").on("click", function(){
 
 
 // Console.log () variable here.
-
-console.log(readmoreButton);
