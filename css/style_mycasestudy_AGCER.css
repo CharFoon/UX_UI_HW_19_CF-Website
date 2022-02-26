@@ -1,3 +1,8 @@
+
+a:hover, a:active {
+  background-color: #6768A6;;
+}
+
 section {
     font: Roboto;
     margin: 50px;

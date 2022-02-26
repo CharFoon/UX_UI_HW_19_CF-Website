@@ -52,12 +52,12 @@ button {
   background-color: white
   color: #2E2F40;
   border-style:none;
-}
 
 .ViewCSbutton {
   background-color:#2E2F40;
   color:#FFFFFF;
   font-size: 18px;
+  :hover {background-color: #6768A6;}
 }
 
 .Hi {
