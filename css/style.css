@@ -52,12 +52,11 @@ button {
   background-color: white
   color: #2E2F40;
   border-style:none;
+}
 
 .ViewCSbutton {
   background-color:#2E2F40;
-  color:#FFFFFF;
-  font-size: 18px;
-  :hover {background-color: #6768A6;}
+  color: #FFFFFF;
 }
 
 .Hi {
@@ -115,14 +114,15 @@ color: #6768A6;
 }
 
 .wavingHand {
-float: right;
-max-width: 60%;
+  width: 50%;
+  float: right;
 }
 
 .RaiseChild {
   color:#FFFFFF;
   background-color:#2E2F40;
   padding: 110px;
+  margin: auto;
 }
 
 .readMoreButton {
@@ -196,6 +196,7 @@ footer ul {
 }
 
 footer li {
+  display: inline-block;
   padding: 10px 15px;
   align-items: center;
   color: #FFFFFF;
@@ -234,13 +235,3 @@ padding: 30px; 0;
   padding-left: 100px;
 }
 
-.footerbutton {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 400;
-  color: #2E2F40;
-  background-color: white;
-  border-radius: 16px;
-  border-style:none;
